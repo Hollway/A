@@ -16,5 +16,15 @@ public class Main {
         person1.walk();
         person1.eat("meat");
         System.out.println("Current age: " + person1.growOld());
+
+        Person person2 = new Person();
+
+        person2.name = "Olga";
+        person2.age = 21;
+        person2.country = country1;
+
+        person2.walk();
+        person2.eat("bread");
+        System.out.println("Current age: " + person2.growOld());
     }
 }
