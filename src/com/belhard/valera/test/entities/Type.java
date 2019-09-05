@@ -5,6 +5,9 @@ public class Type {
     public static void main(String[] args) {
 
 
+
+                                                      //как работает This. Reflection API
+
       /*  int a = 10;
         int b = a;
 

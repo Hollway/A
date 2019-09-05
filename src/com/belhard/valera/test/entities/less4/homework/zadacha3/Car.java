@@ -35,7 +35,7 @@ public class Car {
     }
 
     private void changePos(double x, double y) {
-        this.fuellLevel -= calcDistanceFromCurrent(x, y) * consumation
+        this.fuellLevel -= calcDistanceFromCurrent(x, y) * consumation;
 
         this.x = x;
         this.y = y;
