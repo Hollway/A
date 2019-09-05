@@ -6,7 +6,15 @@ public class Type {
 
 
 
-                                                      //как работает This. Reflection API
+
+        /**как работает This. Reflection API
+         *
+         * Collection API
+         *
+         *   ArrayList<String> list = new ArrayList<>();
+         *   list add("...");
+         *   list get (0);
+         *   list.size();</>**/
 
       /*  int a = 10;
         int b = a;
