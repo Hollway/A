@@ -22,22 +22,25 @@ public class Main {
 
         for (int i : hash)
             if (i > border) {
-              //  hash.remove(i);  //удалить не получилось, получилось только вывести, скрыв эти элементы
-                System.out.print(i+ " ");
+                //  hash.remove(i);  //удалить не получилось, получилось только вывести, скрыв эти элементы
+                System.out.print(i + " ");
             }
+        System.out.println();
 
+        for (int i : hash) {
+            if (i < border){
+            hash.remove(i);
+            return;
+            }
+        }
+        System.out.println(hash);
 
-/*        Iterator<Integer> i = hash.iterator();
+       /* Iterator<Integer> i = hash.iterator();
         while (i.hasNext())
             if (i.next() > border) {
-                hash.remove(i);
-                System.out.print(i.next() + " ");
+                hash.remove(i.next());
+                System.out.print(i + " ");
             }*/
-
-
-
-
-
 
 
     }
