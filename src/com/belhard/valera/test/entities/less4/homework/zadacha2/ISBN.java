@@ -2,7 +2,7 @@ package com.belhard.valera.test.entities.less4.homework.zadacha2;
 
 import java.util.Date;
 
-public class ISBN {
+public class    ISBN {
 
 
         private String number;

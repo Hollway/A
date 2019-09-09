@@ -1,26 +1,20 @@
-package com.belhard.valera.test.entities.less6.entities;
+package com.belhard.valera.test.entities.less6.ex1.entities;
 
-public class Worker extends Person {
+
+public class Worker extends Person implements Workable {
 
     private int salary;
 
     public Worker(String name, int age, double weight, String education, int salary) {
         super(name, age, weight, education);
-        this.salary = salary;
 
+        this.salary = salary;
     }
 
     public Worker(Person person, int salary) {
         super(person);
-        this.salary = salary;
-    }
 
-    public void setSalary(int salary) {
         this.salary = salary;
-    }
-
-    public int getSalary() {
-        return salary;
     }
 
     @Override
@@ -28,15 +22,23 @@ public class Worker extends Person {
         System.out.println("working hard");
     }
 
-    public void  rest(){
+    public void rest() {
         System.out.println("I'm resting");
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
 
     @Override
     public String toString() {
         return "Worker{" +
                 super.toString() +
-                " salary=" + salary +
+                " salary = " + salary +
                 '}';
     }
 }
