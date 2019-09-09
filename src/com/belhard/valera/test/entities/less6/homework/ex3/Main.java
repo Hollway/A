@@ -22,7 +22,7 @@ public class Main {
 
         for (int i : hash)
             if (i > border) {
-              //  hash.remove(i);
+              //  hash.remove(i);  //удалить не получилось, получилось только вывести, скрыв эти элементы
                 System.out.print(i+ " ");
             }
 
