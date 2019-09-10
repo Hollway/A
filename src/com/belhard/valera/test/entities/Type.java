@@ -14,7 +14,8 @@ public class Type {
          *   ArrayList<String> list = new ArrayList<>();
          *   list add("...");
          *   list get (0);
-         *   list.size();</>**/
+         *   list.size();</>
+         *   лямбда**/
 
       /*  int a = 10;
         int b = a;
