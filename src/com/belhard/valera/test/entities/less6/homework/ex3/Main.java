@@ -27,21 +27,21 @@ public class Main {
             }
         System.out.println();
 
-        for (int i : hash) {
+      /*  for (int i : hash) {
             if (i < border){
             hash.remove(i);
             return;
             }
         }
+        System.out.println(hash);*/
+
+        Iterator<Integer> i = hash.iterator();
+        while (i.hasNext()){
+            int next = i.next();
+            if (next < border) {
+                i.remove();
+                         }}
         System.out.println(hash);
-
-       /* Iterator<Integer> i = hash.iterator();
-        while (i.hasNext())
-            if (i.next() > border) {
-                hash.remove(i.next());
-                System.out.print(i + " ");
-            }*/
-
 
     }
 

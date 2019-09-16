@@ -6,7 +6,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<Integer> al = new ArrayList<Integer>();
+        ArrayList<Integer> al = new ArrayList<>();
         for (int i = 1; i <= 5; i++) {
             int b;
             Random random = new Random();

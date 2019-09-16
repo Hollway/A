@@ -22,6 +22,8 @@ public class Main {
         for (int i = 0; i < al.size(); i++){
             System.out.print(al.get(i).toUpperCase() + " ");
         }
+
+        System.out.println(al);
     }
 
 
